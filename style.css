@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    letter-spacing: 0.8px;
+}
+
+.container {
+    width: 100%;
+}
+main {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    min-height: 90vh;
+}
+
+main h1 {
+    text-align: center;
+}
+
+.header {
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+}
+
+.header h1 {
+    background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet); 
+    -webkit-text-fill-color: transparent; 
+    -webkit-background-clip: text; 
+    font-size: 40px;
+}
+
+#betAmount {
+    padding: 0.2rem;
+}
+
+.balance-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    width: 100%;
+    padding: 0.5rem;
+}
+.amountBtns {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+.amountBtns input {
+    padding: 0.2rem;
+    width: 3rem;
+}
+
+.gobtn {
+    padding: 0.2rem;
+    width: 4rem;
+}
+.revertbtn {
+    padding: 0.2rem;
+    width: 4rem;
+}
+
+.balance-container h1 {
+    font-size: 2.5rem;
+}
+.betting-container {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0.5rem;
+}
+
+.balance-sec {
+    display: flex;
+}
+
+
+.betting-container div {
+    height: auto;
+    min-height: 100px;
+    width: 33.33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.result-container {
+    display: flex;
+    width: 100%;
+    flex-grow: 1;
+    padding: 0.5rem;
+    gap: 1rem;
+}
+
+.result-container div {
+    height: auto;
+    width: 100%;
+    background: gray;
+}
+
+.betting-container div:nth-child(1) {
+    background: red;
+}
+.betting-container div:nth-child(2) {
+    background: blue;
+}
+.betting-container div:nth-child(3) {
+    background: green;
+}
+.betting-container div:nth-child(4) {
+    background: yellow;
+}
+.betting-container div:nth-child(5) {
+    background: orange;
+}
+.betting-container div:nth-child(6) {
+    background: purple;
+}
