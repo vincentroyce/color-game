@@ -109,18 +109,42 @@ main h1 {
 .betting-container div:nth-child(1) {
     background: red;
 }
+.betting-container div:nth-child(1):hover {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    cursor: pointer;
+}
 .betting-container div:nth-child(2) {
     background: blue;
+}
+.betting-container div:nth-child(2):hover {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    cursor: pointer;
 }
 .betting-container div:nth-child(3) {
     background: green;
 }
+.betting-container div:nth-child(3):hover {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    cursor: pointer;
+}
 .betting-container div:nth-child(4) {
     background: yellow;
+}
+.betting-container div:nth-child(4):hover {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    cursor: pointer;
 }
 .betting-container div:nth-child(5) {
     background: orange;
 }
+.betting-container div:nth-child(5):hover {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    cursor: pointer;
+}
 .betting-container div:nth-child(6) {
     background: purple;
+}
+.betting-container div:nth-child(6):hover {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    cursor: pointer;
 }
