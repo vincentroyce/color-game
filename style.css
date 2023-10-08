@@ -58,6 +58,11 @@ main h1 {
     width: 3rem;
 }
 
+.clearbtn {
+    padding: 0.2rem;
+    width: 3rem;
+}
+
 .gobtn {
     padding: 0.2rem;
     width: 4rem;

@@ -1,16 +1,21 @@
 let amountBtns = document.querySelectorAll(".amountBtns input");
 let amountInput = document.querySelector("#betAmount");
-amountInput.defaultValue = 0;
+amountInput.defaultValue = Number(0).toFixed(2);
 let balance = document.querySelector(".balance");
 let betColors = document.querySelectorAll(".betting-container div");
 let betColorsAmount = document.querySelector(".betting-container div p");
 let message = document.querySelector(".message");
+let clearBtn = document.querySelector(".clearbtn");
 
 amountBtns.forEach(buttons => {
     buttons.addEventListener("click", function() {
         amountInput.value = (Number(amountInput.value) + Number(buttons.value)).toFixed(2);
     })
 }) 
+
+clearBtn.addEventListener("click", function() {
+    amountInput.value = Number(0).toFixed(2);
+})
 
 betColors.forEach(colors => {
     let amount = document.createElement('p');
